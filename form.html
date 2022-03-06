@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCS Farm Agro Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="https://kit.fontawesome.com/beb87a90d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER SECTION START -->
+    <header id="header1">
+        <div class="top-section py-2">
+          <div class="container d-flex justify-content-between">
+            <div class="text-success fw-bold">
+              <span>PCS Agro Farm Ltd.</span>
+            </div>
+            <div class="">
+              <a class="text-success fw-bold pe-3 border-end border-3 border-success" href="mailto:demotest@gamil.com">
+                <span class=""><i class="fa fa-envelope"></i></span>
+                <span>demotest@gamil.com</span>
+              </a>
+              <a class="text-success fw-bold ps-3" href="tel:+01942562546">
+                <span><i class="fa fa-phone"></i></span>
+                <span>+01723648965</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <nav id="nav-color" class="navbar p-2 main-nav navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/Untitled-1.png" class="img-fluid logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="service.html">Invest</a></li>
+                    <li><a class="dropdown-item" href="service.html">Partners</a></li>
+                    <li><a class="dropdown-item" href="service.html">Develop</a></li>
+                    <li><a class="dropdown-item" href="service.html">Delibari</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <a href="form.html"><button class=" btn bg-dark bg-opacity-50 rounded-pill fw-bold text-light" type="submit"><i class="fas fa-user-alt"></i></button></a>
+            </div>
+          </div>
+          </nav>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <!-- MAIN SECTION START -->
+        <section class="form">
+            <div class="container overflow-hidden py-5">
+              <h1 class="text-primary fw-bold text-center mb-4">Welcome to Login Form</h1>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 px-0">
+                      <div class="">
+                        <img src="images/loginform.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 overflow-hidden px-0">
+                        <div class="pe-3">
+                          <div class="width-200 p-3 d-flex">
+                            <div id="login" class="border bg-success bg-opacity-10 rounded-20 text-center p-4 w-50 overflow-hidden">
+                              <h3 class="fw-bold mb-3">Login form</h3>
+                              <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                              <label class="fw-bold px-4 btn btn-success rounded-pill" for="danger-outlined">Loge in</label>
+                              <input onclick="loginBtn1()" type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                              <label class="fw-bold px-4 btn btn-outline-danger rounded-pill" for="success-outlined">Sign Up</label>
+                              <div class="socila-icon d-flex justify-content-center my-4">
+                                  <a href="#"><button class="btn btn-outline-danger social-form"><i class="fa fa-twitter"></i></button></a>
+                                  <a href="#"><button class="btn btn-outline-danger social-form"><i class="fa fa-facebook"></i></button></a>
+                                  <a href="#"><button class="btn btn-outline-danger social-form"><i class="fa fa-phone"></i></button></a>
+                              </div>
+                              <form class="form-group mt-5" action="">
+                                <div class="mb-4">
+                                  <input type="text" class="fw-bold form-control rounded-pill py-2 px-3" placeholder="Email or user name" required>
+                                </div>
+                                <div class="mb-4">
+                                  <input type="text" class="fw-bold form-control rounded-pill py-2 px-3" placeholder="Password" required>
+                                </div>
+                                <div class="mx-4 mb-4  text-start">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                  <label class="form-check-label fw-bold" for="invalidCheck">
+                                    Remember Me
+                                  </label>
+                                </div>
+                                <button class="btn btn-success w-75 fw-bold rounded-pill">Loge in</button>
+                                <h6 class="text-danger fw-bold mx-4 mt-3">Forgot Password ?</h6>
+                                <div class="mb-2 mt-0">
+                                  <span class="fw-bold fs-6">Not a Member?</span>
+                                  <span onclick="loginBtn1()" class="fw-bold fs-6 text-danger pointer">Sign Up Now</span>
+                                </div>
+                              </form>
+                            </div>
+  
+                            <div id="signup" class="border bg-success bg-opacity-10 rounded-20 text-center p-4 w-50 overflow-hidden">
+                              <h4 class="fw-bold mb-3">SignUp form</h4>
+                              <input onclick="signupbtn2()" type="radio" class="btn-check" name="options-outlined" id="danger-outlined1" autocomplete="off">
+                              <label class="fw-bold px-4 btn btn-outline-danger rounded-pill" for="danger-outlined1">Loge in</label>
+                              <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                              <label class="fw-bold px-4 btn btn-success rounded-pill" for="success-outlined">Sign Up</label>
+                              <div class="socila-icon d-flex justify-content-center my-4">
+                                  <div class="social-form"><i class="fa fa-twitter"></i></div>
+                                  <div class="social-form"><i class="fa fa-facebook"></i></div>
+                                  <div class="social-form"><i class="fa fa-phone"></i></div>
+                              </div>
+                              <form class="form-group mt-5" action="">
+                                <div class="mb-3">
+                                  <input type="text" class="fw-bold form-control rounded-pill py-2 px-3" placeholder="Email or user name" required>
+                                </div>
+                                <div class="mb-3">
+                                  <input type="text" class="fw-bold form-control rounded-pill py-2 px-3" placeholder="Password" required>
+                                </div>
+                                <div class="">
+                                  <input type="text" class="fw-bold form-control rounded-pill py-2 px-3" placeholder="Conform Password" required>
+                                </div>
+                                <div class="m-3  text-start">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                  <label class="form-check-label fw-bold" for="invalidCheck">
+                                    Remember Me
+                                  </label>
+                                </div>
+                                <button class="btn btn-success w-75 fw-bold rounded-pill">Sign Up</button>
+                                <div class="mt-3">
+                                  <span class="fw-bold fs-6">Not a Member?</span>
+                                  <span onclick="signupbtn2()" class="fw-bold fs-6 text-danger pointer">Sign Up Now</span>
+                                </div>
+                              </form>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- MAIN SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="position-relative">
+      <div class="mx-auto">
+          <div class="logo-footer position-absolute top-0 start-50 translate-middle rounded-pill">
+              <img src="images/Untitled-1.png" class="logo" alt="">
+          </div>
+      </div>
+
+    <!-- CHAT BOOT START -->
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102222612415781");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- CHAT BOOT END -->
+
+      <div class="container py-4">
+          <div class="row d-flex">
+              <div class="col-md-4 p-2 text-white">
+                  <div class="bg-light bg-opacity-10 rounded-3 p-3 h-100">
+                      <h4 class="fw-bold">About Us</h4>
+                      <div class="mx-auto">
+                          <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus</p>
+                              <div class="d-flex align-items-center">
+                                  <div class="fs-4 text-light fw-bold me-2"><i class="fa fa-phone"></i></div>
+                                  <div class=" fw-bold">
+                                      <a href="tel:+"><div class="text-light"><span>+01782269384</span></div></a>
+                                      <a href="tel:+"><div class="text-light"><span>+01782269384</span></div></a>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                  <div class="fs-4 text-light fw-bold me-2"><i class="fa fa-envelope-o"></i></div>
+                                  <div class="fw-bold">
+                                      <p>rohulamin@gamil.com</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                  <div class="fs-4 fw-bold text-light me-2"><i class="fa fa-map-marker"></i></div>
+                                  <div class="fw-bold">
+                                      <div class=""><span>2307 Beverley Rd Brooklyn,</span></div>
+                                      <div class=""><span>New York 11226 United States.</span></div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 text-white p-2">
+                  <div class="bg-light bg-opacity-10 rounded-3 p-3 h-100">
+                      <h4 class="fw-bold">Quick Contacts</h4>
+                      <div class="px-0">
+                          <p>If you have any questions or need help</p>
+                          <a href="tel:+01782269384">
+                              <h4 class="fw-bold text-light">
+                                  <span class="text-light"><i class="fas fa-phone-square"></i></span> +01782269384
+                              </h4>
+                          </a>
+                          <p>2307 Beverley Rd Brooklyn, <br> New York 11226 United States.</p>
+                          <div class="d-flex justify-content-between mt-4">
+                              <a href=""><button class="btn btn-outline-light"><i class="fa fa-facebook"></i></button></a>
+                              <a href=""><button class="btn btn-outline-light"><i class="fa fa-twitter"></i></button></a>
+                              <a href="tel:+01952364525"><button class="btn btn-outline-light"><i class="fa fa-phone"></i></button></a>
+                              <a href="mailto:demotest@gamil.com"><button class="btn btn-outline-light"><i class="fa fa-envelope"></i></button></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 text-white p-2">
+                 <div class="bg-light bg-opacity-10 rounded-3 p-3 h-100">
+                  <h5 class="fw-bold">Let,s Subscribe to Our Newsletter</h5>
+                  <p>Get Update on Dhamaaka Offers, Specials and More...</p>
+                  <input type="text" class="form-control fw-bold mb-3" placeholder="Enter Your Email">
+                  <button class="btn btn-light fw-bold">submit</button>
+                 </div>
+              </div>
+          </div>
+      </div>
+      <div class="position-fixed scrollbtn back-to-top">
+          <span class="fs-5 fw-bold"><i class="fas fa-angle-double-up"></i></span>
+      </div>
+      <p class="text-white text-center pb-3 fw-bold">&copy; 2022 All Rights Reserved by PCS Farm Agro Ltd.</p>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- SMS CHAT BOOT -->
+    
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/"></script>
+
+</body>
+</html>
