@@ -21,6 +21,20 @@ $(document).ready(function(){
         ],
     });
 
+    // feedback-img-slider
+    $('.feedback-img-slider').slick({
+        arrows : false,
+        autoplay : true,
+        asNavFor : '.feedback-text-slider',
+    });
+    // feedback-text-slider
+    $('.feedback-text-slider').slick({
+        arrows : false,
+        // dots : true,
+        autoplay : true,
+        asNavFor : '.feedback-img-slider',
+    });
+
 
     // BACK TO TOP BUTTON ADDED
     var backtoTop = $('.scrollbtn');

@@ -433,8 +433,8 @@ footer .logo-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 20px;
-    right: 12px;
+    bottom: 85px;
+    right: 33px;
     background-color: #ffffff;
     color: #1bd47e;
     border-radius: 20px;
@@ -471,6 +471,9 @@ footer .logo-footer {
        justify-content: start !important;
        text-align: start !important;
        text-align: left !important;
+    }
+    .none{
+        display: none !important;
     }
   }
 
